@@ -1,0 +1,33 @@
+html {
+    background: url(https://static.vecteezy.com/system/resources/previews/004/968/002/original/cute-abstract-modern-background-free-vector.jpg);
+}
+h1 {
+    font-family: "Lobster","consolas","sans-serif";
+    margin-left: 50%;
+    font-size: 50px;
+
+}
+
+.fa-instagram {
+    color: orangered;
+    
+
+}
+#box1 {
+    /*
+    animation: mySlide;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-timing-function: ease;
+    animation-duration: 5s;
+    */
+    animation: 3s linear 0s infinite running mySlide;
+}
+    
+@keyframes mySlide{
+    from {margin-left: 100%;}
+    to{margin-left: 0%;}
+
+}
+
